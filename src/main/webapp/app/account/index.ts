@@ -1,3 +1,5 @@
+export * from './login/login.component';
+export * from './login/login.route';
 export * from './activate/activate.component';
 export * from './activate/activate.service';
 export * from './activate/activate.route';

@@ -1,7 +1,7 @@
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import {NgModule, CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
+import {RouterModule} from '@angular/router';
 
-import { JhipsterSharedModule } from 'app/shared';
+import {JhipsterSharedModule} from 'app/shared';
 
 import {
   PasswordStrengthBarComponent,
@@ -11,7 +11,7 @@ import {
   PasswordResetInitComponent,
   PasswordResetFinishComponent,
   SettingsComponent,
-  accountState
+  accountState, LoginComponent
 } from './';
 
 @NgModule({
@@ -23,8 +23,10 @@ import {
     PasswordStrengthBarComponent,
     PasswordResetInitComponent,
     PasswordResetFinishComponent,
-    SettingsComponent
+    SettingsComponent,
+    LoginComponent
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
-export class JhipsterAccountModule {}
+export class JhipsterAccountModule {
+}
